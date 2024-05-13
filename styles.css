@@ -5,6 +5,12 @@ body, html{
     background-color: #626263;
 }
 
+.welcome-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .unselectable {
     -webkit-user-select: none; /* Chrome, Safari, Opera */
     -moz-user-select: none; /* Firefox */
