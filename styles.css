@@ -28,7 +28,7 @@ body, html{
 .nav ul li{
     z-index: 1;
     display: inline-block;
-    list-style: none;
+    list-style-type: none;
     margin: 10px 20px;
 }
 
