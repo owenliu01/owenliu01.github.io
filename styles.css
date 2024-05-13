@@ -1,4 +1,4 @@
-body, html, ui li a{
+body, html{
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
@@ -16,4 +16,15 @@ body, html, ui li a{
     font-weight: bold;
     font-family: Bradley Hand, cursive;
     text-align: center;
+}
+
+.nav ul li{
+    z-index: 1;
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
 }
