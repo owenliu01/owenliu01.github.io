@@ -5,6 +5,13 @@ body, html{
     background-color: #626263;
 }
 
+.unselectable {
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
+}
+
 .main_title {
     position: absolute;
     top: 50%;
