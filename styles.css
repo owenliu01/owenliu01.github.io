@@ -21,8 +21,9 @@ body, html{
 }
 
 nav {
-    position: absolute;
+    position: relative;
     z-index: 1;
+    text-align: right;
 }
 
 
@@ -32,7 +33,6 @@ nav ul li{
     padding: 5px;
     list-style: none;
     margin: 10px 20px;
-    text-align: right;
 }
 
 nav ul li a{
