@@ -1,3 +1,11 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #626263;
+}
+
 .main_title {
     position: absolute;
     top: 50%;
