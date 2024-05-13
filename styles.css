@@ -21,11 +21,12 @@ body, html{
 }
 
 nav {
-    position: right;
+    position: relative;
     z-index: 1;
 }
 
 nav ul li{
+    float: right;
     z-index: 1;
     display: inline-block;
     list-style: none;
