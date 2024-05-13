@@ -25,10 +25,14 @@ nav {
     z-index: 1;
 }
 
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
 nav ul li{
     z-index: 1;
     display: inline-block;
-    position: absolute; right: 0;
     padding: 5px;
     list-style: none;
     margin: 10px 20px;
@@ -40,7 +44,6 @@ nav ul li a{
     font-size: 25px;
     font-weight: bold;
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-    position: relative;
 }
 
 .main_title {
