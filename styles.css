@@ -80,7 +80,7 @@ nav ul li a{
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -1500px;
     }
     100% {
         margin-left: 100%;
@@ -89,7 +89,7 @@ nav ul li a{
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -1500px;
     }
     100% {
         margin-left: 100%;
