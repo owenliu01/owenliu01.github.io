@@ -55,6 +55,7 @@ nav ul li a{
     font-weight: bold;
     font-family: Bradley Hand, cursive;
     text-align: center;
+    text-shadow: 1px 1px 2px black;
 }
 
 .cloud-background {
@@ -80,7 +81,7 @@ nav ul li a{
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -1500px;
+        margin-left: -1000px;
     }
     100% {
         margin-left: 100%;
@@ -89,7 +90,7 @@ nav ul li a{
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1500px;
+        margin-left: -1000px;
     }
     100% {
         margin-left: 100%;
@@ -126,7 +127,7 @@ nav ul li a{
 	-webkit-transform: scale(0.5);
 	-moz-transform: scale(0.5);
 	transform: scale(0.5);
-    margin-top: 60px; /* Adjust this value */
+    margin-top: 60px; 
 }
 
 .x4 {
@@ -137,7 +138,7 @@ nav ul li a{
 	-webkit-transform: scale(0.4);
 	-moz-transform: scale(0.4);
 	transform: scale(0.4);
-    margin-top: 100px; /* Adjust this value */
+    margin-top: 100px; 
 }
 
 .x5 {
@@ -148,7 +149,7 @@ nav ul li a{
 	-webkit-transform: scale(0.55);
 	-moz-transform: scale(0.55);
 	transform: scale(0.55);
-    margin-top: 120px; /* Adjust this value */
+    margin-top: 120px; 
 }
 
 /* OBJECTS (Design of the clouds)*/
