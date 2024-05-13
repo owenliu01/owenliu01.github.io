@@ -18,13 +18,22 @@ body, html{
     text-align: center;
 }
 
+nav {
+    position: relative;
+    z-index: 1;
+}
+
 .nav ul li{
     z-index: 1;
     display: inline-block;
+    list-style: none;
 }
 
 .nav ul li a{
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
+    font-family:  Bradley Hand, cursive;
+    
+    position: relative;
 }
