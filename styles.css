@@ -46,6 +46,10 @@ nav ul li a{
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
+.topnav{
+    float: right;
+}
+
 .main_title {
     position: absolute;
     top: 50%;
