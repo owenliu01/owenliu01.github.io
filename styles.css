@@ -25,10 +25,6 @@ nav {
     z-index: 1;
 }
 
-nav ul{
-    list-style: none;
-    padding: 0;
-}
 
 nav ul li{
     z-index: 1;
@@ -36,6 +32,7 @@ nav ul li{
     padding: 5px;
     list-style: none;
     margin: 10px 20px;
+    text-align: right;
 }
 
 nav ul li a{
@@ -46,9 +43,6 @@ nav ul li a{
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
-.topnav{
-    float: right;
-}
 
 .main_title {
     position: absolute;
