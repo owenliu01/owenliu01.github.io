@@ -19,19 +19,6 @@ body, html{
     user-select: none; /* Standard syntax */
 }
 
-.main_title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; /* Move title above canvas */
-    color: #ffffff; /* Set title color */
-    font-size: 80px; /* Set title font size */
-    font-weight: bold;
-    font-family: Bradley Hand, cursive;
-    text-align: center;
-}
-
 .nav {
     position: relative;
     z-index: 1;
@@ -51,4 +38,17 @@ body, html{
     font-family:  Bradley Hand, cursive;
     text-decoration: none;
     position: relative;
+}
+
+.main_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Move title above canvas */
+    color: #ffffff; /* Set title color */
+    font-size: 80px; /* Set title font size */
+    font-weight: bold;
+    font-family: Bradley Hand, cursive;
+    text-align: center;
 }
