@@ -217,9 +217,8 @@ nav ul li a{
 }
 
 .about-info{
-	background:  #cfe1ec;
     background-color: #cfe1ec; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#cfe1ec, #e1f7ef);
+    background: -webkit-linear-gradient(#cfe1ec, #e1f7ef);
 
 }
 
