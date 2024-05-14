@@ -99,7 +99,7 @@ nav ul li a{
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1500px;
+        margin-left: -1900px;
     }
     100% {
         margin-left: 100%;
