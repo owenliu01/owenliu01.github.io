@@ -17,7 +17,7 @@ body, html{
     position: relative;
     height: 100vh;
     overflow: hidden;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
 }
 
 .unselectable {
@@ -62,7 +62,7 @@ nav ul li a{
     color: #ffffff; /* Set title color */
     font-size: 80px; /* Set title font size */
     font-weight: bold;
-    font-family: Bradley Hand, cursive;
+    font-family: Lucida Bright, serif;
     text-align: center;
     text-shadow: 1px 1px 2px black;
 }
@@ -81,7 +81,7 @@ nav ul li a{
 
 @-webkit-keyframes animateCloud {
     0% {
-        margin-left: -1500px;
+        margin-left: -1900px;
     }
     100% {
         margin-left: 100%;
@@ -90,7 +90,7 @@ nav ul li a{
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -1500px;
+        margin-left: -1900px;
     }
     100% {
         margin-left: 100%;
@@ -225,11 +225,12 @@ nav ul li a{
 .about-header{
 	color: #fff;
     font-size: 60px;
+    padding: 40px 0px 0px 25px;
 }
 
 .about-me{
 	font-size: 40px;
-    padding: 100px;
+    padding: 0px 0px 0px 25px;
 }
 
 
@@ -244,7 +245,7 @@ nav ul li a{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .about-content,
     .projects-content {
         padding: 3rem; /* Adjust padding for smaller screens */
