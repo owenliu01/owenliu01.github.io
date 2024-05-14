@@ -129,9 +129,9 @@ nav ul li a{
 }
 
 .x3 {
-	-webkit-animation: animateCloud 30s linear infinite;
-	-moz-animation: animateCloud 30s linear infinite;
-	animation: animateCloud 30s linear infinite;
+	-webkit-animation: animateCloud 32s linear infinite;
+	-moz-animation: animateCloud 32s linear infinite;
+	animation: animateCloud 32s linear infinite;
 	
 	-webkit-transform: scale(0.5);
 	-moz-transform: scale(0.5);
@@ -151,9 +151,9 @@ nav ul li a{
 }
 
 .x5 {
-	-webkit-animation: animateCloud 25s linear infinite;
-	-moz-animation: animateCloud 25s linear infinite;
-	animation: animateCloud 25s linear infinite;
+	-webkit-animation: animateCloud 26s linear infinite;
+	-moz-animation: animateCloud 26s linear infinite;
+	animation: animateCloud 26s linear infinite;
 	
 	-webkit-transform: scale(0.55);
 	-moz-transform: scale(0.55);
@@ -226,6 +226,7 @@ nav ul li a{
 	color: #fff;
     font-size: 60px;
     padding: 40px 0px 0px 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .about-me{
@@ -238,6 +239,7 @@ nav ul li a{
     color: #fff;
     font-size: 60px;
     padding: 40px 0px 0px 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 /*Define style for smaller screens */
