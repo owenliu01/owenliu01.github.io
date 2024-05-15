@@ -11,7 +11,7 @@ body, html{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #dfd7ab;
+    background-color: #e9deb2;
     font-family:  Bradley Hand, cursive;
 }
 
@@ -32,15 +32,13 @@ body, html{
 nav {
     position: relative;
     z-index: 1;
-    text-align: right;
-	background-color: #ffffff;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 
 nav ul li{
     z-index: 1;
-    display: inline-block;
+    display: flex;
+  	flex-direction: column;
     padding: 5px;
     list-style: none;
     margin: 25px 25px;
@@ -51,7 +49,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-family: 'Old computer St', sans-serif;
 }
 
 
@@ -59,7 +57,7 @@ nav ul li a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-160%, -90%);
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
     font-size: 80px; /* Set title font size */
