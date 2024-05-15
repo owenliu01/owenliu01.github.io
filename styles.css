@@ -30,6 +30,8 @@ body, html{
 
 nav {
     position: relative;
+    top: 55%;
+    left: 8.5%;
     z-index: 1;
 }
 
@@ -49,20 +51,27 @@ nav ul li a{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    color: #e9deb2;
+     background-color: #7c7c7c;
+  	width: 15%;
+  	color: #e9deb2;
 }
 
 
 .main_title {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 10%;
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
     font-size: 80px; /* Set title font size */
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
-    text-align: center;
+    text-align: left;
     text-shadow: 1px 1px 2px black;
 }
 
