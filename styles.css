@@ -65,6 +65,11 @@ nav ul li a:hover{
     text-shadow: 1px 1px 2px black;
 }
 
+.comp-pic{
+    position: relative;
+    left: 300px;
+}
+
 .about-header{
 	color: #fff;
     font-size: 60px;
