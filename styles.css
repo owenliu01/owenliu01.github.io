@@ -69,7 +69,7 @@ nav ul li a:hover{
 .comp-pic{
     position: absolute;
     left: 80%; 
-    top: 60%; 
+    top: 50%; 
     transform: translate(-50%, -50%); /* Centers the element */
 }
 
