@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 .main_title {
     position: relative;
-    top: 50%;
+    top: 90%;
     left: 60%; 
     transform: translate(-50%, -50%); /* Centers the element */
     z-index: 1; /* Move title above canvas */
