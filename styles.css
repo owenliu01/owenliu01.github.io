@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 .main_title {
     position: relative;
-    top: 60%;
+    top: 20%;
     left: 60%; 
     transform: translate(-50%, -50%); /* Centers the element */
     z-index: 1; /* Move title above canvas */
@@ -67,7 +67,7 @@ nav ul li a:hover{
 }
 
 .comp-pic{
-    position: relative;
+    position: absolute;
     left: 80%; 
     top: 70%; 
     transform: translate(-50%, -50%); /* Centers the element */
