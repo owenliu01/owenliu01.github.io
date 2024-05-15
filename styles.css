@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/old-computer-st');
+@import url('https://fonts.cdnfonts.com/css/dec-terminal-modern');
 
 * {
     margin: 0;
@@ -68,8 +69,8 @@ nav ul li a:hover{
 
 .comp-pic{
     position: absolute;
-    left: 80%; 
-    top: 50%; 
+    top: 50%;
+    left: 80%;  
     transform: translate(-50%, -50%); /* Centers the element */
 }
 
@@ -85,7 +86,7 @@ nav ul li a:hover{
     padding: 20px 0px 0px 28px;
     line-height: 1.8;
     color: #7c7c7c;
-    text-shadow: 1px 1px 2px black;
+   	font-family: 'DEC Terminal Modern', sans-serif;
 }
 
 .projects-header{
