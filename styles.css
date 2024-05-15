@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 .main_title {
     position: relative;
-    top: 20%;
+    top: 60%;
     left: 60%; 
     transform: translate(-50%, -50%); /* Centers the element */
     z-index: 1; /* Move title above canvas */
@@ -69,7 +69,7 @@ nav ul li a:hover{
 .comp-pic{
     position: absolute;
     left: 80%; 
-    top: 70%; 
+    top: 60%; 
     transform: translate(-50%, -50%); /* Centers the element */
 }
 
@@ -82,8 +82,9 @@ nav ul li a:hover{
 
 .about-me{
 	font-size: 30px;
-    padding: 5px 0px 0px 25px;
+    padding: 20px 0px 0px 25px;
     color: #7c7c7c;
+    text-shadow: 1px 1px 2px black;
 }
 
 .projects-header{
