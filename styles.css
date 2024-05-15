@@ -49,15 +49,13 @@ nav ul li a{
 nav ul li a:hover{
     color: #e9deb2;
     background-color: #7c7c7c;
-  	width: 18%;
-  	color: #e9deb2;
 }
 
 
 .main_title {
     position: relative;
-    top: 15%;
-    left: 10%;
+    top: 200px;
+    left: 120px;
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
     font-size: 80px; /* Set title font size */
