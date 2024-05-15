@@ -54,8 +54,8 @@ nav ul li a:hover{
 
 .main_title {
     position: relative;
-    top: 200px;
-    left: 120px;
+    top: 400px;
+    left: 420px;
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
     font-size: 80px; /* Set title font size */
