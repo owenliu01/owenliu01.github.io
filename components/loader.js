@@ -1,18 +1,7 @@
-document.onreadystatechange = function () {
-    if (document.readyState !== "complete") {
-        document.querySelector(
-            "body").style.visibility = "hidden";
-        document.querySelector(
-            "#loading").style.visibility = "visible";
-    } else {
-        document.querySelector(
-            "#loading").style.display = "none";
-        document.querySelector(
-            "body").style.visibility = "visible";
-    }
-
-    window.onload = function () {
-        document.querySelector("#loading").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
-    };
-};
+let loading = document.getElementById("loading");
+setTimeout(function(){
+    loading.style.opacity = 0;
+    setTimeout(function(){
+        loading.style.display = "none"
+    },750);
+},250);
