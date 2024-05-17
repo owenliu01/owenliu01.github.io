@@ -17,7 +17,7 @@ body, html{
 }
 
 #loading {
-    background: url('images/pixil-gif-drawing.gif') no-repeat center center;
+    background: url('images/pixil-gif-drawing.gif') no-repeat center center / cover;
     position: fixed;
     top: 0;
     left: 0;
