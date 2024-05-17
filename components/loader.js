@@ -10,4 +10,9 @@ document.onreadystatechange = function () {
         document.querySelector(
             "body").style.visibility = "visible";
     }
+
+    window.onload = function () {
+        document.querySelector("#loading").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    };
 };
