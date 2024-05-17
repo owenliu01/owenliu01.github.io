@@ -19,13 +19,12 @@ body, html{
 #loading {
     background: url('images/pixil-gif-drawing.gif') no-repeat center center;
     position: fixed;
-    content: "";
     top: 0;
     left: 0;
     width: 100%; /* Cover the entire width */
     height: 100%; /* Cover the entire height */
     z-index: 999;
-    transition: opacity 500ms ease;
+    transition: opacity 50ms ease;
 }
 
 .welcome-page {
