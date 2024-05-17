@@ -18,6 +18,7 @@ body, html{
 
 #loading {
     background: url('images/pixil-gif-drawing.gif') no-repeat center center;
+    position: fixed;
     content: "";
     width: 100%;
     height: 100vh;
