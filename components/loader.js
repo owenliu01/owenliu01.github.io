@@ -3,7 +3,7 @@ document.onreadystatechange = function () {
         document.querySelector(
             "body").style.visibility = "hidden";
         document.querySelector(
-            "#loader").style.visibility = "visible";
+            "#loading").style.visibility = "visible";
     } else {
         document.querySelector(
             "#loader").style.display = "none";
