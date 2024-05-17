@@ -18,12 +18,10 @@ body, html{
 
 #loading {
     background: url('images/pixil-gif-drawing.gif') no-repeat center center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    position: fixed;
     width: 100%;
-    z-index: 9999999;
+	height: 100vh;
+    z-index: 999;
 }
 
 .welcome-page {
