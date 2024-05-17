@@ -60,7 +60,7 @@ nav ul li a:hover{
     transform: translate(-50%, -50%); /* Centers the element */
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
-    font-size: 80px; /* Set title font size */
+    font-size: 4vw; /* Set title font size */
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
     text-align: left;
