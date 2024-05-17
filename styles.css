@@ -79,13 +79,13 @@ nav ul li a:hover{
 
 .about-header{
 	color: #fff;
-    font-size: 60px;
+    font-size: 4vw;
     padding: 40px 0px 0px 25px;
     text-shadow: 1px 1px 2px black;
 }
 
 .about-me{
-	font-size: 30px;
+	font-size: 2vw;
     padding: 20px 0px 0px 28px;
     line-height: 1.8;
     color: #7c7c7c;
