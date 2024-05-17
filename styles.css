@@ -73,7 +73,7 @@ nav ul li a:hover{
     top: 50%;
     left: 80%; 
     width: 50%; 
-    height: 50%;
+    height: 60%;
     transform: translate(-50%, -50%); /* Centers the element */
 }
 
