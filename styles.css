@@ -24,7 +24,7 @@ body, html{
     width: 100%; /* Cover the entire width */
     height: 100%; /* Cover the entire height */
     z-index: 999;
-    transition: opacity 50ms ease;
+    transition: opacity 500ms ease;
 }
 
 .welcome-page {
