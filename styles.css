@@ -16,6 +16,16 @@ body, html{
     font-family: 'Old computer St', sans-serif;
 }
 
+#loading {
+    background: url('images/pixil-gif-drawing.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
 .welcome-page {
     position: relative;
     height: 100vh;
