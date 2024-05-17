@@ -1,7 +1,8 @@
 let loading = document.getElementById("loading");
 setTimeout(function(){
     loading.style.opacity = 0;
-    loading.addEventListener('wheel', function(e) {
+    var yourDiv = document.getElementById("loading");
+    yourDiv.addEventListener('wheel', function(e) {
         e.preventDefault();
     }, { passive: false });
     setTimeout(function(){
