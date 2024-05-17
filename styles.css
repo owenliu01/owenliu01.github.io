@@ -73,7 +73,8 @@ nav ul li a:hover{
     top: 50%;
     left: 80%;  
     transform: translate(-50%, -50%); /* Centers the element */
-    object-fit: contain;
+    height: auto;
+    width: 40%;
 }
 
 .about-header{
