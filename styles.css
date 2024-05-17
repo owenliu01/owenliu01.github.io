@@ -71,10 +71,10 @@ nav ul li a:hover{
 .comp-pic{
     position: absolute;
     top: 50%;
-    left: 80%;  
+    left: 80%; 
+    width: 50%; 
+    height: 50%;
     transform: translate(-50%, -50%); /* Centers the element */
-    height: auto;
-    width: 40%;
 }
 
 .about-header{
