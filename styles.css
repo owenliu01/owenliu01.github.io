@@ -122,12 +122,13 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 1vw;
+    font-size: 0.6vw;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     background-color: #7c7c7c;
-    width: max-content;
+    width: 500px;
+    height: 200px;
   
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
