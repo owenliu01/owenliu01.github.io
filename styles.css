@@ -126,7 +126,7 @@ nav ul li a:hover{
     margin: 25px;
     font-size: 0.6vw;
     border-radius: 8px;
-    background-image: url("images/MixedFeelingTitle.png");
+    background: url('images/MixedFeelingTitle.png') center center / cover;
   
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
