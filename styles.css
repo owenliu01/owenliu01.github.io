@@ -126,8 +126,7 @@ nav ul li a:hover{
     margin: 25px;
     font-size: 0.6vw;
     border-radius: 8px;
-    background: url('images/MixedFeelingTitle.png') center center / cover;
-  
+    background-image: url('images/MixedFeelingTitle.png') center center / cover;
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
     transition-timing-function: ease;
@@ -154,7 +153,7 @@ nav ul li a:hover{
       font-size: 1.2vw;
       padding: 20px 0px 0px 28px;
       color: white;
-         font-family: 'DEC Terminal Modern', sans-serif;
+      font-family: 'DEC Terminal Modern', sans-serif;
   }
   
   .project-item:is(:hover, :focus) {
