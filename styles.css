@@ -149,7 +149,7 @@ nav ul li a:hover{
   text-shadow: 1px 1px 2px black;
 }
 
-  .project-item {
+.project-item-Ta {
     padding: 16px;
     color: white;
     margin: 25px;
@@ -162,18 +162,21 @@ nav ul li a:hover{
   
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.84);
   }
-  
-  .project-item p{
-      font-size: 1.2vw;
-      padding: 20px 0px 0px 28px;
-      color: white;
-      font-family: 'DEC Terminal Modern', sans-serif;
-  }
-  
-  .project-item:is(:hover, :focus) {
-    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.8);
-    transform: translateY(-8px);
-  }
+
+.project-item-Ta p{
+    font-size: 1.2vw;
+    padding: 20px 0px 0px 28px;
+    color: white;
+    font-family: 'DEC Terminal Modern', sans-serif;
+}
+
+.project-item-Ta:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.8);
+  transform: translateY(-8px);
+  background-image: url('images/TaVsStudents.png');
+  background-size: cover;
+  text-shadow: 1px 1px 2px black;
+}
   
   /*Remove Link underline and text decoration*/
   a {
