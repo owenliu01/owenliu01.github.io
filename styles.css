@@ -147,6 +147,9 @@ nav ul li a:hover{
   background-image: url('images/MixedFeelingTitle.png');
   background-size: cover;
   color: #7c7c7c;
+  p{
+    color: #7c7c7c;
+  }
 }
 
   .project-item {
