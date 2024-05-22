@@ -126,8 +126,7 @@ nav ul li a:hover{
     margin: 25px;
     font-size: 0.6vw;
     border-radius: 8px;
-    background-image: url('images/MixedFeelingTitle.png');
-    background-size: cover;
+    background-color: #7c7c7c;
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
     transition-timing-function: ease;
@@ -145,6 +144,8 @@ nav ul li a:hover{
 .project-item-mixed:is(:hover, :focus) {
   box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.8);
   transform: translateY(-8px);
+  background-image: url('images/MixedFeelingTitle.png');
+  background-size: cover;
 }
 
   .project-item {
@@ -154,7 +155,6 @@ nav ul li a:hover{
     font-size: 0.6vw;
     border-radius: 8px;
     background-color: #7c7c7c;
-  
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
     transition-timing-function: ease;
