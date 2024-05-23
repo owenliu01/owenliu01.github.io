@@ -4,7 +4,7 @@ setTimeout(function(){
     window.removeEventListener('wheel', preventScroll, {passive: false});
     setTimeout(function(){
         loading.style.display = "none";
-        window.addEventListener('wheel',preventScroll, {passive: fasle});
+        window.addEventListener('wheel',preventScroll, {passive: false});
     },1000);
 },3000);
 
