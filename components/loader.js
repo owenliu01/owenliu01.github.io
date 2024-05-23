@@ -1,10 +1,12 @@
 let loading = document.getElementById("loading");
+
+window.addEventListener('wheel',preventScroll, {passive: false});
+
 setTimeout(function(){
     loading.style.opacity = 0;
-    window.removeEventListener('wheel', preventScroll, {passive: false});
     setTimeout(function(){
         loading.style.display = "none";
-        window.addEventListener('wheel',preventScroll, {passive: false});
+        window.removeEventListener('wheel', preventScroll, {passive: false});
     },1000);
 },3000);
 
