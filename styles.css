@@ -104,6 +104,14 @@ nav ul li a:hover{
    	font-family: 'DEC Terminal Modern', sans-serif;
 }
 
+ #about{
+    padding-top: 20px;
+ }
+
+ #projects{
+    padding-top: 20px;
+ }
+
 .projects-header{
     color: #fff;
     font-size: 3vw;
