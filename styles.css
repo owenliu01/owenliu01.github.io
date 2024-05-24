@@ -62,6 +62,11 @@ nav ul li a:hover{
     width: max-content;
 }
 
+.welcome-page{
+	background-color: #dad8c9;
+    height: 1300px;
+}
+
 .welcome-outer{
 	position: relative;
     min-width: 375px; /* Adjust to fit the screen width */
@@ -163,7 +168,7 @@ nav ul li a:hover{
   }
 
 .project-item-mixed p{
-    font-size: 1.2vw;
+    font-size: 25px;
     padding: 20px 0px 0px 28px;
     color: white;
     font-family: 'DEC Terminal Modern', sans-serif;
@@ -192,7 +197,7 @@ nav ul li a:hover{
   }
 
 .project-item-Ta p{
-    font-size: 1.2vw;
+    font-size: 25px;
     padding: 20px 0px 0px 28px;
     color: white;
     font-family: 'DEC Terminal Modern', sans-serif;
@@ -221,7 +226,7 @@ nav ul li a:hover{
   }
 
 .project-item-Ai p{
-    font-size: 1.2vw;
+    font-size: 25px;
     padding: 20px 0px 0px 28px;
     color: white;
     font-family: 'DEC Terminal Modern', sans-serif;
