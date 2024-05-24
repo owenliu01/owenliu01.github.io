@@ -28,14 +28,6 @@ body, html{
     transition: opacity 500ms ease;
 }
 
-.welcome-page {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('images/welcomePage.png');
-    background-size: cover;
-}
-
 .unselectable {
     -webkit-user-select: none; /* Chrome, Safari, Opera */
     -moz-user-select: none; /* Firefox */
@@ -45,20 +37,19 @@ body, html{
 
 nav ul li{
     z-index: 1;
-    display: flex;
-  	flex-direction: column;
-    list-style: none;
-    width: 290px;
+    display: inline;
+    width: 590px;
     margin: 10px 0px;
 }
 
 nav ul li a{
     color: #7c7c7c;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
-    padding: 10px;
+    padding: 100px;
+    margin-left: 100px;
 }
 
 nav ul li a:hover{
@@ -67,29 +58,42 @@ nav ul li a:hover{
     width: max-content;
 }
 
+.welcome-outer{
+	position: relative;
+    min-width: 375px; /* Adjust to fit the screen width */
+    min-height: 812px; /* Set a minimum height */
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px; 
+}
+
+.title-background{
+	position: absolute;
+	top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Centers the element */
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
 
 .main_title {
-    position: relative;
-    top: 60%;
-    left: 60%; 
+    position: absolute;
+	top: 50%;
+    left: 50%; 
     transform: translate(-50%, -50%); /* Centers the element */
     z-index: 1; /* Move title above canvas */
     color: #ffffff; /* Set title color */
-    font-size: 4vw; /* Set title font size */
+    font-size: 40px; /* Set title font size */
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
-    text-align: left;
+    text-align: center;
     text-shadow: 1px 1px 2px black;
 }
 
-.comp-pic{
-    position: absolute;
-    top: 50%;
-    left: 80%; 
-    width: auto; 
-    height: 80%; /* Old value was 70%*/
-    transform: translate(-50%, -50%); /* Centers the element */
-}
 
 .about-header{
 	color: #fff;
@@ -225,34 +229,3 @@ nav ul li a:hover{
   a {
     text-decoration: none;
   }
-
-/*Define style for smaller screens */
-@media (max-width: 767px) {
-    .main_title {
-        font-size: 60px; /* Adjust main title font size for mobile */
-    }
-    .sub_title {
-        font-size: 20px; /* Adjust subtitle font size for mobile */
-        top: calc(50% + 80px); /* Adjust based on main title font size */
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .about-content,
-    .projects-content {
-        padding: 3rem; /* Adjust padding for smaller screens */
-    }
-    nav ul li {
-        margin: 5px 5px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .about-content,
-    .projects-content {
-        padding: 1.5rem; /* Adjust padding for even smaller screens */
-    }
-    nav ul li {
-        margin: 5px 5px;
-    }
-}
