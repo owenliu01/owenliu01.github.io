@@ -35,11 +35,15 @@ body, html{
     user-select: none; /* Standard syntax */
 }
 
+.list-div{
+    text-align: center;
+    padding-top: 30px;
+}
+
 nav ul li{
     z-index: 1;
     display: inline;
     width: 590px;
-    margin: 10px 0px;
 }
 
 nav ul li a{
@@ -48,7 +52,7 @@ nav ul li a{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Old computer St', sans-serif;
-    padding: 100px;
+    padding: 10px;
     margin-left: 100px;
 }
 
