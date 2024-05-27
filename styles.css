@@ -105,6 +105,12 @@ nav ul li a:hover{
     text-shadow: 1px 1px 2px black;
 }
 
+.sub-title{
+	font-size: 30px;
+    color:  #cac8bb;
+   	font-family: 'DEC Terminal Modern', sans-serif;
+}
+
 .about-info{
 	text-align: center;
 }
