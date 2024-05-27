@@ -110,6 +110,7 @@ nav ul li a:hover{
     color: #7c7c7c;
    	font-family: 'DEC Terminal Modern', sans-serif;
     font-style: italic;
+    font-weight: normal;
 }
 
 .about-info{
