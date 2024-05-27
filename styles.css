@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/old-computer-st');
 @import url('https://fonts.cdnfonts.com/css/dec-terminal-modern');
+@import url('https://fonts.cdnfonts.com/css/encode-sans-sc');
 
 * {
     margin: 0;
@@ -51,14 +52,15 @@ nav ul li a{
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Old computer St', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
     padding: 10px;
     margin-left: 100px;
 }
 
 nav ul li a:hover{
-    color: #e9deb2;
-    background-color: #7c7c7c;
+    text-decoration: underline;
+    transition: 300ms ease;
+    color:white;
     width: max-content;
 }
 
