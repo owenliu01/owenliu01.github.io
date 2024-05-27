@@ -8,7 +8,7 @@ setTimeout(function(){
         loading.style.display = "none";
         window.removeEventListener('wheel', preventScroll, {passive: false});
     },990);
-},3000);
+},2000);
 
 function preventScroll(e){
     e.preventDefault();
