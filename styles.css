@@ -149,6 +149,7 @@ nav ul li a:hover{
 
  .project-item-mixed, .project-item-Ta, .project-item-Ai, .project-item-Hotel {
     max-width: 700px; 
+    min-height: 250px;
 }
 
 .projects-header{
