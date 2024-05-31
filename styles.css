@@ -59,6 +59,7 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+    text-underline-offset: 10px; 
     transition: 300ms ease;
     color:white;
     width: max-content;
@@ -123,11 +124,12 @@ nav ul li a:hover{
 
 .about-header{
 	color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     padding: 40px 0px 0px 25px;
     text-shadow: 1px 1px 2px black;
     text-decoration: underline;
     text-underline-offset: 10px; 
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 .about-me{
@@ -154,12 +156,13 @@ nav ul li a:hover{
 
 .projects-header{
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     padding: 40px 0px 0px 25px;
     text-shadow: 1px 1px 2px black;
     text-decoration: underline;
     text-underline-offset: 10px; 
     text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 .project-list {
@@ -176,7 +179,8 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: 'DEC Terminal Modern', sans-serif;
     border-radius: 8px;
     background-color: #7c7c7c;
     transition-property: box-shadow, transform;
@@ -206,7 +210,8 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: 'DEC Terminal Modern', sans-serif;
     border-radius: 8px;
     background-color: #7c7c7c;
     transition-property: box-shadow, transform;
@@ -236,7 +241,8 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: 'DEC Terminal Modern', sans-serif;
     border-radius: 8px;
     background-color: #7c7c7c;
     transition-property: box-shadow, transform;
@@ -266,7 +272,8 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: 'DEC Terminal Modern', sans-serif;
     border-radius: 8px;
     background-color: #7c7c7c;
     transition-property: box-shadow, transform;
@@ -296,7 +303,8 @@ nav ul li a:hover{
     padding: 16px;
     color: white;
     margin: 25px;
-    font-size: 12px;
+    font-size: 22px;
+    font-family: 'DEC Terminal Modern', sans-serif;
     border-radius: 8px;
     background-color: #7c7c7c;
     transition-property: box-shadow, transform;
@@ -320,6 +328,17 @@ nav ul li a:hover{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-shadow: 1px 1px 2px black;
+}
+
+.experience-header{
+    color: #fff;
+    font-size: 70px;
+    padding: 20px 0px 0px 28px;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
 }
   
   /*Remove Link underline and text decoration*/
