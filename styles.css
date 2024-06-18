@@ -143,11 +143,11 @@ nav ul li a:hover{
 }
 
  #about{
-    padding-top: 40px;
+    padding-top: 80px;
  }
 
  #projects{
-    padding-top: 40px;
+    padding-top: 100px;
  }
 
  .project-item-mixed, .project-item-Ta, .project-item-Ai, .project-item-Hotel, .project-item-Data {
@@ -330,6 +330,10 @@ nav ul li a:hover{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-shadow: 1px 1px 2px black;
+}
+
+#experience-items{
+	padding-top: 200px;
 }
 
 .experience-header{
