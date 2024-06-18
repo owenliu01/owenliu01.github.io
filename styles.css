@@ -115,11 +115,17 @@ nav ul li a:hover{
 }
 
 .about-info{
-	text-align: center;
+	text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#portrait{
+	float: left;
+    padding-right: 20px;
+    padding-top: 70px;
 }
 
 .about-header{
@@ -139,7 +145,7 @@ nav ul li a:hover{
     line-height: 1.8;
     color: #7c7c7c;
    	font-family: 'DEC Terminal Modern', sans-serif;
-    max-width: 1580px;
+    max-width: 1660px;
 }
 
  #about{
