@@ -358,8 +358,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-bottom: 70px;
-    padding-left: 260px;
+    padding: 70px 0px 70px 260px;
     color: white;
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 25px;
@@ -378,11 +377,11 @@ nav ul li a:hover{
 
 hr.fortis-Divider {
     border-top: 4px solid transparent;
-    border-image: linear-gradient(to right, #efe9d5, #cac8bb);
+    border-image: linear-gradient(to left, #efe9d5, #cac8bb);
     border-image-slice: 1;
     border-radius: 7px;
     width: 60%;
- 	margin-left: 260px;; 
+ 	margin-left: 600px;
             
 }
 
@@ -391,8 +390,7 @@ hr.fortis-Divider {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-bottom: 70px;
-    padding-right: 260px;
+    padding: 70px 0px 70px 260px;
     color: white;
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 25px;
