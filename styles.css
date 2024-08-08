@@ -53,8 +53,7 @@ nav ul li a{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Encode Sans SC', sans-serif;
-    padding: 10px;
-    margin-left: 100px;
+    padding: 80px;
 }
 
 nav ul li a:hover{
@@ -108,9 +107,21 @@ nav ul li a:hover{
 
 .sub-title{
 	font-size: 30px;
+    padding-bottom: 30px;
     color: #b6b4b4;
    	font-family: 'DEC Terminal Modern', sans-serif;
     font-style: italic;
+    font-weight: normal;
+}
+
+.resume{
+	font-size: 35px;
+    padding: 10px;
+    background-color:#bdb39b;
+    color: #fcfffd;
+    box-shadow: 1px 1.5px #000000;
+    border-radius: 10px;
+   	font-family: 'DEC Terminal Modern', sans-serif;
     font-weight: normal;
 }
 
