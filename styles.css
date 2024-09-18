@@ -385,6 +385,21 @@ nav ul li a:hover{
 
 .fortis-info{
 	text-align: left;
+    margin-right: 15%;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+h3{
+	text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h2 {
+  display: block;
+  font-size: 75%;
+  opacity: 0.90;
 }
 
 hr{
@@ -414,6 +429,9 @@ hr.fortis-Divider {
 
 .roasty-info{
 	text-align: right;
+    margin-left: 15%;
+    color: #7c7c7c;
+    font-weight: bold;
 }
 
 /*Remove Link underline and text decoration*/
