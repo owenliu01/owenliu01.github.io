@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/old-computer-st');
 @import url('https://fonts.cdnfonts.com/css/dec-terminal-modern');
 @import url('https://fonts.cdnfonts.com/css/encode-sans-sc');
+@import url('https://fonts.cdnfonts.com/css/yaldevi');
 
 * {
     margin: 0;
@@ -141,7 +142,7 @@ nav ul li a:hover{
 
 .about-header{
 	color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     padding: 110px 0px 0px 25px;
     text-shadow: 1px 1px 2px black;
     text-decoration: underline;
@@ -174,12 +175,12 @@ nav ul li a:hover{
 
 .projects-header{
     color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     padding: 40px 0px 0px 25px;
     text-shadow: 1px 1px 2px black;
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-underline-offset: 15px; 
+    text-underline-offset: 13px; 
     text-align: center;
     font-family: 'Encode Sans SC', sans-serif;
 }
@@ -355,7 +356,7 @@ nav ul li a:hover{
 
 .experience-header{
     color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     padding: 20px 0px 0px 28px;
     text-shadow: 1px 1px 2px black;
     text-decoration: underline;
@@ -373,7 +374,6 @@ nav ul li a:hover{
     padding: 70px 0px 70px 260px;
     color: white;
     font-family: 'Encode Sans SC', sans-serif;
-    font-size: 25px;
 }
 
 #fortis-logo{
@@ -388,12 +388,16 @@ nav ul li a:hover{
     margin-right: 15%;
     color: #7c7c7c;
     font-weight: bold;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 20px;
 }
 
 h3{
 	text-decoration: underline;
+    text-underline-offset: 5px;
     color: white;
     text-shadow: 1px 1px 2px gray;
+    font-size: 25px;
 }
 
 h2 {
@@ -424,7 +428,6 @@ hr.fortis-Divider {
     padding: 70px 260px 70px 0px;
     color: white;
     font-family: 'Encode Sans SC', sans-serif;
-    font-size: 25px;
 }
 
 .roasty-info{
@@ -432,6 +435,8 @@ hr.fortis-Divider {
     margin-left: 15%;
     color: #7c7c7c;
     font-weight: bold;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 20px;
 }
 
 /*Remove Link underline and text decoration*/
